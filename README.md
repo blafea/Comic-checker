@@ -1,8 +1,8 @@
-#Comic-checker
+# Comic-checker
 
 Check the comics whether it has already updated every day automatically.
 
-##command
+## command
 '''shell
 /add {name} {url} - Add a new comic
 /delete {name}    - Delete the comic with {name}
