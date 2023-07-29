@@ -65,7 +65,7 @@ def check_now(update, context):
     if not send:
         update.message.reply_text("沒有漫畫更新")
 
-updater = Updater('6269578873:AAE6exmJI8M74lgEJD1S-LOOQhWSXE8OEsc')
+updater = Updater('your bot token')
 j = updater.job_queue
 # j.run_repeating(check, interval=10)
 j.run_repeating(check_loop, interval=datetime.timedelta(days=1), first=datetime.time(hour=15, minute=59))
