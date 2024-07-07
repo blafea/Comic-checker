@@ -2,7 +2,7 @@ import requests
 from lxml import etree
 
 
-def check_baozi(url):
+def check(url):
     res = requests.get(url)
     html = etree.HTML(res.text)
     # print(res.text)
